@@ -11,11 +11,11 @@ import css from "../../assets/css.png";
 import tailwind from "../../assets/tailwind.png";
 import laravel from "../../assets/laravel.png";
 import javascript from "../../assets/javascript.png";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 
 const Skills = () => {
   return (
-    <Fade left>
+    <Fade cascade>
       <div
         id="skills"
         className="justify-center items-center w-full text-center mt-5 mb-5"

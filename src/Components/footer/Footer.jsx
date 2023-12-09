@@ -6,7 +6,7 @@ import { Typography } from "@material-tailwind/react";
 import { FaWhatsapp, FaPhoneAlt } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaEnvelope } from "react-icons/fa";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();

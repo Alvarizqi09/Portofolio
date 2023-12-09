@@ -1,11 +1,11 @@
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 import "./Header.css";
 import { Typography } from "@material-tailwind/react";
 import { TypeAnimation } from "react-type-animation";
 
 const Header = () => {
   return (
-    <Fade left>
+    <Fade cascade>
       <header>
         <section>
           <div className="relative flex w-full justify-between">

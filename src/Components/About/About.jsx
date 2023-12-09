@@ -1,9 +1,9 @@
 import { Typography } from "@material-tailwind/react";
 import foto from "../../assets/foto.png";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 const About = () => {
   return (
-    <Fade right>
+    <Fade cascade>
       <div
         id="about"
         className="justify-center items-center flex flex-col lg:flex-row w-full text-center sm:py-5"

@@ -27,7 +27,7 @@ import { SiMysql } from "react-icons/si";
 import { FaCircle } from "react-icons/fa6";
 import { TbBrandLaravel } from "react-icons/tb";
 import { FaBootstrap } from "react-icons/fa";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 
 const Project = () => {
   const handleLiveDemoClick = (websiteUrl) => {
@@ -35,7 +35,7 @@ const Project = () => {
   };
 
   return (
-    <Fade left>
+    <Fade cascade>
       <div id="project" className="flex flex-col items-center w-full mt-10">
         <Typography
           variant="h2"

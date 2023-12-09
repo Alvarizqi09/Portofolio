@@ -42,7 +42,7 @@ const Project = () => {
         My Projects
       </Typography>
 
-      <div className="w-full mt-10">
+      <div className="w-full mt-10 mx-auto">
         <div className="w-full flex">
           <FaCircle size={15} className="mr-5 mt-2" />
           <Typography

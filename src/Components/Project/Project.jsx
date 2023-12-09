@@ -43,7 +43,7 @@ const Project = () => {
       </Typography>
 
       <div className="w-full mt-10">
-        <div className="w-full flex">
+        <div className="w-full flex pl-5">
           <FaCircle size={15} className="mr-5 mt-2" />
           <Typography
             variant="h3"
@@ -163,7 +163,7 @@ const Project = () => {
               </CardBody>
               <CardFooter className="pt-3">
                 <a
-                  href="https://react-ai-nu.vercel.app/#home"
+                  href="https://vilume.vercel.app "
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -171,9 +171,7 @@ const Project = () => {
                     size="lg"
                     fullWidth={true}
                     onClick={() =>
-                      handleLiveDemoClick(
-                        "https://react-ai-nu.vercel.app/#home"
-                      )
+                      handleLiveDemoClick("https://vilume.vercel.app ")
                     }
                   >
                     Live Demo
@@ -228,7 +226,7 @@ const Project = () => {
               </CardBody>
               <CardFooter className="pt-3">
                 <a
-                  href="https://vilume.vercel.app"
+                  href="https://react-ai-nu.vercel.app/#home"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -236,7 +234,9 @@ const Project = () => {
                     size="lg"
                     fullWidth={true}
                     onClick={() =>
-                      handleLiveDemoClick("https://vilume.vercel.app")
+                      handleLiveDemoClick(
+                        "https://react-ai-nu.vercel.app/#home"
+                      )
                     }
                   >
                     Live Demo
@@ -247,7 +247,7 @@ const Project = () => {
           </div>
         </div>
         <div className="w-full mt-10">
-          <div className="w-full flex">
+          <div className="w-full flex pl-5">
             <FaCircle size={15} className="mr-5 mt-2" />
             <Typography
               variant="h3"

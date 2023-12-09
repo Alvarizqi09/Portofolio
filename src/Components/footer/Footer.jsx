@@ -61,11 +61,14 @@ const Footer = () => {
                 <FaLocationDot className="mx-auto" />
               </i>
               <a
-                href="https://goo.gl/maps/YZ72dAiKACBDbDCu6"
+                href="https://maps.app.goo.gl/RPooebCY6TLUXU1MA"
                 className="text-gray-900"
               >
                 <p>
-                  <span>Gunung Pati</span> Semarang, Indonesia
+                  <span>
+                    <strong>Purwokerto, </strong>
+                  </span>
+                  Banyumas, Indonesia
                 </p>
               </a>
             </div>
@@ -108,8 +111,10 @@ const Footer = () => {
             className="text-center font-normal text-blue-gray-900 md:mb-0"
           >
             &copy; {currentYear}{" "}
-            <a href="https://github.com/Alvarizqi09">Alvarizqi</a>. All Rights
-            Reserved.
+            <a href="https://github.com/Alvarizqi09">
+              <strong>Alvarizqi</strong>
+            </a>
+            . All Rights Reserved.
           </Typography>
         </div>
       </footer>

@@ -53,7 +53,7 @@ const Project = () => {
           </Typography>
         </div>
         <hr className="border border-gray-900 mb-8" />
-        <div className="flex flex-col space-y-4 md:space-x-8 md:flex-row md:space-y-0 justify-center mx-2">
+        <div className="flex flex-col space-y-4 md:space-x-8 md:flex-row md:space-y-0 justify-center mx-auto">
           <div className="flex-shrink-0 md:mb-0 mb-4">
             <Card className="w-full max-w-[26rem] shadow-lg">
               <CardHeader floated={false} color="blue-gray">

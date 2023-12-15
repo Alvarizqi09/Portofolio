@@ -5,7 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const Header = () => {
   return (
-    <Fade cascade>
+    <Fade cascade duration={2000}>
       <header>
         <section>
           <div className="relative flex w-full justify-between">

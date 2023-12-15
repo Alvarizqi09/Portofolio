@@ -14,7 +14,7 @@ const Footer = () => {
     window.location.href = "https://wa.me/6281327963181";
   };
   return (
-    <Fade right>
+    <Fade cascade duration={2000}>
       <footer id="contact" className="w-full">
         <div className="flex flex-col items-center justify-between py-4 md:flex-row md:justify-between px-5">
           <div className="space-y-6 md:text-left text-center">

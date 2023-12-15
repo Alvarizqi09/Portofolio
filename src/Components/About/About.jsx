@@ -1,9 +1,9 @@
 import { Typography } from "@material-tailwind/react";
 import foto from "../../assets/foto.png";
-import { Fade } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 const About = () => {
   return (
-    <Fade cascade>
+    <Slide direction={"right"} duration={2000}>
       <div
         id="about"
         className="justify-center items-center flex flex-col lg:flex-row w-full text-center sm:py-5"
@@ -33,10 +33,10 @@ const About = () => {
           </div>
         </div>
         <div className="lg:w-1/2 sm:w-full h-full flex items-center justify-center">
-          <img src={foto} alt="foto" className="max-w-full h-auto" />
+          <img src={foto} alt="foto" className="w-[600px] h-[700px]" />
         </div>
       </div>
-    </Fade>
+    </Slide>
   );
 };
 

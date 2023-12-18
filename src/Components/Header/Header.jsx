@@ -1,9 +1,16 @@
 import { Fade } from "react-awesome-reveal";
 import "./Header.css";
-import { Typography } from "@material-tailwind/react";
+import { Button, Typography } from "@material-tailwind/react";
 import { TypeAnimation } from "react-type-animation";
 
 const Header = () => {
+  const cvFileUrl =
+    "https://drive.google.com/file/d/1qn1mwz5W7McBjsvB0zQjY1hXjwsyeVbH/view?usp=drive_link";
+
+  const handleDownloadCV = () => {
+    window.open(cvFileUrl, "_blank");
+  };
+
   return (
     <Fade cascade duration={2000}>
       <header>
@@ -26,6 +33,12 @@ const Header = () => {
                 repeat={Infinity}
                 className="text-blue-800 font-semibold mb-4 lg:text-6xl text-4xl"
               />
+              <Button
+                onClick={handleDownloadCV}
+                className="flex justify-center bg-cyan-400 px-8 py-5 text-lg text-white"
+              >
+                Download CV!
+              </Button>
             </div>
           </div>
         </section>

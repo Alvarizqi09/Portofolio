@@ -3,7 +3,7 @@ import foto from "../../assets/foto.png";
 import { Slide } from "react-awesome-reveal";
 const About = () => {
   return (
-    <Slide direction={"right"} duration={2000}>
+    <Slide direction={"right"} duration={0.5}>
       <div
         id="about"
         className="justify-center items-center flex flex-col lg:flex-row w-full text-center sm:py-5"

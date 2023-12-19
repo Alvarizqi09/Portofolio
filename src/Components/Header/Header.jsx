@@ -12,7 +12,7 @@ const Header = () => {
   };
 
   return (
-    <Fade cascade duration={2000}>
+    <Fade cascade duration={0.5}>
       <header>
         <section>
           <div className="relative flex w-full justify-between">

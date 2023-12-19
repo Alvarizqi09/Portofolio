@@ -15,7 +15,7 @@ import { Slide } from "react-awesome-reveal";
 
 const Skills = () => {
   return (
-    <Slide direction={"right"} duration={2000}>
+    <Slide direction={"right"} duration={0.5}>
       <div
         id="skills"
         className="justify-center items-center w-full text-center mt-5 mb-5"

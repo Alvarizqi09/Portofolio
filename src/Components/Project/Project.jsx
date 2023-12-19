@@ -35,7 +35,7 @@ const Project = () => {
   };
 
   return (
-    <Slide duration={2000}>
+    <Slide duration={0.5}>
       <div id="project" className="flex flex-col items-center w-full mt-10">
         <Typography
           variant="h2"

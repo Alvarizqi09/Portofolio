@@ -12,6 +12,7 @@ import {
   IconButton,
 } from "@material-tailwind/react";
 import logo2 from "../src/assets/logo2.png";
+import ScrollToTopButton from "./Components/Scroll/Scroll";
 
 function App() {
   const [openNav, setOpenNav] = React.useState(false);
@@ -236,6 +237,7 @@ function App() {
           <Skills />
           <Footer />
         </div>
+        <ScrollToTopButton />
       </section>
     </div>
   );

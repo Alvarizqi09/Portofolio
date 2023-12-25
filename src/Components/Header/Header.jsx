@@ -31,7 +31,7 @@ const Header = () => {
                 ]}
                 speed={50}
                 repeat={Infinity}
-                className="text-blue-800 font-semibold mb-4 lg:text-6xl text-4xl"
+                className="text-blue-700 font-semibold mb-4 lg:text-6xl text-3xl"
               />
               <Button
                 onClick={handleDownloadCV}

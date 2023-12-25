@@ -33,7 +33,7 @@ const About = () => {
           </div>
         </div>
         <div className="lg:w-1/2 sm:w-full h-full flex items-center justify-center">
-          <img src={foto} alt="foto" className="w-[600px] h-[700px]" />
+          <img src={foto} alt="foto" className="w-[700px] h-full" />
         </div>
       </div>
     </Slide>

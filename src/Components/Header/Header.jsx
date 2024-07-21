@@ -13,7 +13,7 @@ const Header = () => {
 
   return (
     <Fade cascade duration={0.5}>
-      <header className="bg-embark bg-no-repeat bg-cover bg-center">
+      <header className="bg-embark max-h-screen bg-no-repeat bg-cover bg-center">
         <section>
           <div className="relative flex w-full justify-between">
             <div className="text-container justify-center items-center flex flex-col w-full min-h-screen text-center">

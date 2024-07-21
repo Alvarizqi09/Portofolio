@@ -16,6 +16,12 @@ module.exports = withMT({
       colors: {
         tp: "transparent",
       },
+      fontFamily: {
+        sans: ["Poppins", "sans-serif"],
+      },
+      backgroundImage: {
+        embark: "url('/src/assets/embark.svg')",
+      },
     },
   },
   plugins: [],
